@@ -7,5 +7,6 @@ public:
           for(int j=i;j>=1;j--)
                 v[j]+=v[j-1];
         return v;
+        
     }
 };
