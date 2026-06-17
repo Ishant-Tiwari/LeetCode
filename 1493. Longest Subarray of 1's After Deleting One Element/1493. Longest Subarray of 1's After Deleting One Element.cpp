@@ -6,6 +6,7 @@ class Solution {
     for (int l = 0, r = 0; r < nums.size(); ++r) {
       if (nums[r] == 0)
         ++zeros;
+     
       while (zeros == 2)
         if (nums[l++] == 0)
           --zeros;
